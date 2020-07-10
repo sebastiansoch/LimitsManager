@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Limits Manager</title>
+    <script defer src="js/scripts.js" charset="UTF-8"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Zarządzanie limitami</h1>
+    </header>
+    <main>
+      <dev>
+        <select id="bus-carrier" name="bus-carrier"></select>
+        <br />
+        <button id="get-limits" onclick="getLimits()">Pobież limity</button>
+      </dev>
+      <dev>
+        <table id="limits"></table>
+        <br />
+        <button id="get-limits" onclick="saveLimits()">Zapisz limity</button>
+      </dev>
+    </main>
+  </body>
+</html>

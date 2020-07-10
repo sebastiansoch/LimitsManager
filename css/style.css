@@ -1,0 +1,22 @@
+table {
+  margin: 30px 0;
+}
+
+.limits__table--head {
+  font-size: 1.2em;
+  background-color: #0707078a;
+  color: #000000;
+}
+
+.limits__table, .limits__table--canceled {
+  background-color: #5b5b5b17;
+  color: #535353f0;
+}
+
+.limits__table--canceled {
+  background-color: #ff000034;  
+}
+
+.limits__table:hover, .limits__table--head:hover {
+  background-color: #c2c2c2;
+}
